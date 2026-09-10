@@ -61,8 +61,9 @@
 # for i in stud:
 #     print(stud[i])
 
-stud  = {
-    "name": "rahul", "age": 20
-    }
-for i,j in stud.items():
-    print(i,j)
+# stud  = {
+#     "name": "rahul", "age": 20
+#     }
+# for i,j in stud.items():
+#     print(i,j)
+
