@@ -33,5 +33,36 @@
 # A = ["Gita", "ABC"]
 # print(A)
 
-A = dict(name="rahul", age=20)
-print(A[0])
+# A = dict(name="rahul", age=20)
+# print(A[0])
+# A = {"Name": "Rahul", "age": 20}
+# print("Name" in A)
+
+# stud = {"name": "rahul", "age": 20}
+# del stud["name"]
+# print(stud)
+
+# stud = {"sub": ["C","C++","Java"], "age":20}
+# stud["sub"][2]
+
+# stud = {
+#     "stud1": {
+#         "name": "rahul"
+#     },
+#     "stud2": {
+#         "name": "rohit"
+#     }
+# }
+# print(stud["stud2"]["name"])
+
+# stud  = {
+#     "name": "rahul", "age": 20
+#     }
+# for i in stud:
+#     print(stud[i])
+
+stud  = {
+    "name": "rahul", "age": 20
+    }
+for i,j in stud.items():
+    print(i,j)
