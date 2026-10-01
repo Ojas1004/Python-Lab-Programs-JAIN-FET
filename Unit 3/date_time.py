@@ -1,0 +1,10 @@
+from datetime import date, datetime, timedelta
+today = date.today()
+now = datetime.now()
+# print(now)
+bd = date(2036, 1, 1)
+temp = now.strftime("%m-%d-%Y %H:%M:%S")
+future = today + timedelta(days=7)
+print(temp)
+print(future)
+print(bd)
